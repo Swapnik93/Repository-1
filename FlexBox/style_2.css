@@ -1,0 +1,32 @@
+.my-container{
+    display:flex;
+    /* flex-wrap: wrap; */
+    align-items: stretch;
+    width:100%;
+}
+
+.my-font{
+    text-align:center;
+    font-size:40px;
+    color:white;
+    font-weight: bolder;
+}
+
+.container-item{
+    margin:1%;
+    background-color: blue;
+    width:20%;
+    height:100px;
+}
+
+.two{
+    flex-grow: 3;
+}
+
+.three{
+    flex-shrink: 3;
+}
+
+.four{
+    flex-basis: 500px;
+}
